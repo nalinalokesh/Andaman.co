@@ -1,0 +1,138 @@
+.text{text-align: justify;
+	text-justify: inter-word;}  
+	 
+@media only screen and (min-width: 501px) and (max-width: 753px){
+			.box-content .cell-w{width: 30%;padding: 8px;}
+			.box-content .cell330{width: 100%;}
+			}
+
+	.box-content{list-style-type: none; max-width: 768px;margin: 0 auto; padding: 0;}
+	.box-content li{width: 100%;box-sizing:border-box; display:inline;margin:0;padding:0;vertical-align:middle;
+	}
+	.box-main{
+		
+		height: 0;
+		padding-bottom: 60%;
+		
+		background-repeat: no-repeat;
+		max-width: 100%; 
+		display:block;
+		background-size: 100%;
+		background-size:cover;
+		position: relative;
+		margin: 0 auto;
+	}
+		.shadow{
+		box-shadow: 0 0px 1px rgba(0,0,0,0.4);
+		border:none;
+		color: #555;
+		text-align: center;
+		display: inline-block;
+		margin: 2px;padding: 10px;
+		overflow: hidden;
+		position: relative;text-decoration: none;
+	} 
+	 .noshadow{
+		
+		border:none;
+		color: #555;
+		text-align: center;
+		display: inline-block;
+		margin: 2px;padding: 10px;
+		overflow: hidden;
+		position: relative;text-decoration: none;
+	} 
+	.box-main-mob{
+		
+		height: 0;
+		padding-bottom: 40%;
+		width: 100%;
+		background-repeat: no-repeat;
+		max-width: 100%; 
+		display:block;
+		background-size: 100%;
+		background-size:cover;
+		position: relative;
+		margin: 0 auto;
+	}
+	.cell {
+		box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+		border:none;
+		color: #555;
+		background-color: white;
+		text-align: center;
+		display: inline-block;
+		margin: 2px;padding: 12px;
+		overflow: hidden;
+		
+		position: relative;text-decoration: none;
+	}
+	.cell-w{width: 32.3%;}
+	.cell2 {
+
+		width: 70%;
+		float: left;
+	}
+	
+	
+	.cell3 {width: 100%;
+		padding: 3px;
+	}
+	
+	ul li  img.pic1-min{
+		background-size: 100%;
+		padding-bottom: 59.9%;
+		height: 0;width: 100%;
+		
+	}
+	
+
+	ul li  img.pic2-min{
+		background-size: 100%;
+		padding-bottom: 59.9%;
+		height: 0;width: 100%;
+		
+
+	}
+	
+	
+	ul li  img.pic3-min{
+		background-size: 100%;
+		padding-bottom: 59.9%;
+		height: 0;width: 100%;
+		
+
+	}
+	
+
+	
+	ul li img.pic4-min{
+		background-size: 100%;
+		padding-bottom: 59.9%;
+		height: 0;width: 100%;
+		background-position: 0 85.714286%;  
+	}
+	
+
+	
+	ul li  img.mob1-min{
+		
+		background-size: 100%;
+		padding-bottom: 40%;
+		height: 0;width: 100%;
+
+	}
+	ul li  img.mob2-min{
+		
+		background-size: 100%;
+		padding-bottom: 40%;
+		height: 0;width: 100%;
+
+	}
+	ul li  img.mob3-min{
+		
+		background-size: 100%;
+		padding-bottom: 40%;
+		height: 0;width: 100%;
+
+	}
