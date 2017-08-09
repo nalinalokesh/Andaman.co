@@ -1,0 +1,23 @@
+
+iframe{
+	max-width: 100%;
+	padding-bottom: 10px;
+}
+
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.direction-button{
+	text-decoration: none;
+	background-color:light blue;
+	font-size: 12px;
+	padding: 4px;
+	border-left: 1px solid #75c8fd;
+	border-right: 1px solid #75c8fd;
+	border-bottom: 1px solid #75c8fd;
+	border-top: 1px solid #75c8fd;
+}
+
