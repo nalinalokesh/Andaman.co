@@ -1,0 +1,34 @@
+table.antable
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 1px solid rgba(220, 220, 220, 0.24);
+	width: 100%;
+	text-align: left;
+}
+
+table.antable th
+{
+	background-color: #f2f2f2;
+	font-size: 100%;
+	font-weight: bold;
+	border: 1px solid #dcdcdc;
+    padding: 5px;
+}
+table.antable td
+{
+	
+	font-size: 100%;
+	padding:4px;
+	border: 1px solid #dcdcdc;
+}
+
+table.antable tr:hover td {
+  background-color:#fcf8f8;
+  border: 1px solid rgb(213, 212, 212);
+}
+
+
+table.anSingleheader tr:nth-child(2n+3){background-color:rgba(220, 220, 220, 0.24)}
+table.anDoubleheader tr:nth-child(2n+4){background-color:rgba(220, 220, 220, 0.24)}
+table.anDoubleheader tr:nth-child(1){ text-align: center; }
